@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    color: #d4af37;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-size: 32px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#countdown {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#event-info, #rsvp, #transfer {
+    margin: 20px 0;
+}
+
+#rsvp-form input, #rsvp-form select, #rsvp-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.qrcode {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}

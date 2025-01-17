@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>The Wedding of</h1>
+            <h2>Suharyanto & Nur Anita</h2>
+        </header>
+
+        <!-- Countdown Timer -->
+        <section id="countdown">
+            <h3>Menuju Hari Bahagia:</h3>
+            <div id="timer">
+                <span id="days"></span> Hari 
+                <span id="hours"></span> Jam 
+                <span id="minutes"></span> Menit 
+                <span id="seconds"></span> Detik
+            </div>
+        </section>
+
+        <!-- Informasi Acara -->
+        <section id="event-info">
+            <h3>Informasi Acara</h3>
+            <p><strong>Akad Nikah</strong><br>
+            Tanggal: 5 Februari 2025<br>
+            Waktu: 08.00 - selesai<br>
+            Tempat: KUA Kecamatan Kesambi Kota Cirebon</p>
+
+            <p><strong>Resepsi</strong><br>
+            Tanggal: 5 Februari 2025<br>
+            Waktu: 10.00 - selesai<br>
+            Tempat: Karang Makmur Rt. 001 Rw. 008 Kelurahan Drajat Kecamatan Kesambi Kota Cirebon<br>
+            <a href="https://maps.app.goo.gl/e23BvsH3BictpfnG7" target="_blank">Lihat Lokasi</a></p>
+        </section>
+
+        <!-- RSVP -->
+        <section id="rsvp">
+            <h3>Konfirmasi Kehadiran</h3>
+            <form id="rsvp-form">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <select name="attendance" required>
+                    <option value="" disabled selected>Apakah Anda akan hadir?</option>
+                    <option value="yes">Ya</option>
+                    <option value="no">Tidak</option>
+                </select>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <!-- Transfer Hadiah -->
+        <section id="transfer">
+            <h3>Berbagi Kebahagiaan</h3>
+            <p>Bagi yang berhalangan hadir, Anda dapat berbagi kebahagiaan melalui:</p>
+            <p><strong>Rekening BSI</strong><br>
+            6185572360 a.n. Suharyanto</p>
+            <img src="qrcode-placeholder.png" alt="QR Code" class="qrcode">
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
